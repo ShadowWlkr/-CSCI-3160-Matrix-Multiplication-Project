@@ -1,0 +1,1160 @@
+Case: Matrix A (All 1s), Matrix B (All 1s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 16.9529
+Execution time in seconds: 0.01695
+
+Runs: 5
+Execution time in milliseconds: 7.23128
+Execution time in seconds: 0.00723
+
+Runs: 10
+Execution time in milliseconds: 4.34268
+Execution time in seconds: 0.00434
+
+Runs: 20
+Execution time in milliseconds: 3.37757
+Execution time in seconds: 0.00338
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 9.2779
+Execution time in seconds: 0.00928
+
+Runs: 5
+Execution time in milliseconds: 5.38678
+Execution time in seconds: 0.00539
+
+Runs: 10
+Execution time in milliseconds: 4.28472
+Execution time in seconds: 0.00428
+
+Runs: 20
+Execution time in milliseconds: 3.23602
+Execution time in seconds: 0.00324
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (All 2s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.5364
+Execution time in seconds: 0.00254
+
+Runs: 5
+Execution time in milliseconds: 2.02924
+Execution time in seconds: 0.00203
+
+Runs: 10
+Execution time in milliseconds: 2.07018
+Execution time in seconds: 0.00207
+
+Runs: 20
+Execution time in milliseconds: 2.23376
+Execution time in seconds: 0.00223
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.7039
+Execution time in seconds: 0.0027
+
+Runs: 5
+Execution time in milliseconds: 2.2835
+Execution time in seconds: 0.00228
+
+Runs: 10
+Execution time in milliseconds: 2.25363
+Execution time in seconds: 0.00225
+
+Runs: 20
+Execution time in milliseconds: 2.48722
+Execution time in seconds: 0.00249
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (Identity matrix)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.3314
+Execution time in seconds: 0.00233
+
+Runs: 5
+Execution time in milliseconds: 1.8524
+Execution time in seconds: 0.00185
+
+Runs: 10
+Execution time in milliseconds: 1.79903
+Execution time in seconds: 0.0018
+
+Runs: 20
+Execution time in milliseconds: 1.76908
+Execution time in seconds: 0.00177
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.5644
+Execution time in seconds: 0.00256
+
+Runs: 5
+Execution time in milliseconds: 2.1188
+Execution time in seconds: 0.00212
+
+Runs: 10
+Execution time in milliseconds: 4.13054
+Execution time in seconds: 0.00413
+
+Runs: 20
+Execution time in milliseconds: 2.39522
+Execution time in seconds: 0.0024
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 1s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.5548
+Execution time in seconds: 0.00255
+
+Runs: 5
+Execution time in milliseconds: 2.05294
+Execution time in seconds: 0.00205
+
+Runs: 10
+Execution time in milliseconds: 2.02151
+Execution time in seconds: 0.00202
+
+Runs: 20
+Execution time in milliseconds: 2.10975
+Execution time in seconds: 0.00211
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.0013
+Execution time in seconds: 0.003
+
+Runs: 5
+Execution time in milliseconds: 2.27774
+Execution time in seconds: 0.00228
+
+Runs: 10
+Execution time in milliseconds: 2.2814
+Execution time in seconds: 0.00228
+
+Runs: 20
+Execution time in milliseconds: 2.59797
+Execution time in seconds: 0.0026
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 2s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.6209
+Execution time in seconds: 0.00262
+
+Runs: 5
+Execution time in milliseconds: 2.07742
+Execution time in seconds: 0.00208
+
+Runs: 10
+Execution time in milliseconds: 2.04722
+Execution time in seconds: 0.00205
+
+Runs: 20
+Execution time in milliseconds: 2.03602
+Execution time in seconds: 0.00204
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.5112
+Execution time in seconds: 0.00351
+
+Runs: 5
+Execution time in milliseconds: 2.40314
+Execution time in seconds: 0.0024
+
+Runs: 10
+Execution time in milliseconds: 2.53679
+Execution time in seconds: 0.00254
+
+Runs: 20
+Execution time in milliseconds: 2.23352
+Execution time in seconds: 0.00223
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (Identity matrix)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.3662
+Execution time in seconds: 0.00237
+
+Runs: 5
+Execution time in milliseconds: 1.81518
+Execution time in seconds: 0.00182
+
+Runs: 10
+Execution time in milliseconds: 1.78791
+Execution time in seconds: 0.00179
+
+Runs: 20
+Execution time in milliseconds: 2.54222
+Execution time in seconds: 0.00254
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 4.3843
+Execution time in seconds: 0.00438
+
+Runs: 5
+Execution time in milliseconds: 4.16416
+Execution time in seconds: 0.00416
+
+Runs: 10
+Execution time in milliseconds: 2.52337
+Execution time in seconds: 0.00252
+
+Runs: 20
+Execution time in milliseconds: 2.04642
+Execution time in seconds: 0.00205
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 1s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.8384
+Execution time in seconds: 0.00284
+
+Runs: 5
+Execution time in milliseconds: 2.45048
+Execution time in seconds: 0.00245
+
+Runs: 10
+Execution time in milliseconds: 2.96846
+Execution time in seconds: 0.00297
+
+Runs: 20
+Execution time in milliseconds: 2.41209
+Execution time in seconds: 0.00241
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.6889
+Execution time in seconds: 0.00369
+
+Runs: 5
+Execution time in milliseconds: 3.58258
+Execution time in seconds: 0.00358
+
+Runs: 10
+Execution time in milliseconds: 3.54103
+Execution time in seconds: 0.00354
+
+Runs: 20
+Execution time in milliseconds: 3.69822
+Execution time in seconds: 0.0037
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 2s)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.0139
+Execution time in seconds: 0.00301
+
+Runs: 5
+Execution time in milliseconds: 3.20556
+Execution time in seconds: 0.00321
+
+Runs: 10
+Execution time in milliseconds: 2.46817
+Execution time in seconds: 0.00247
+
+Runs: 20
+Execution time in milliseconds: 2.42096
+Execution time in seconds: 0.00242
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.0622
+Execution time in seconds: 0.00306
+
+Runs: 5
+Execution time in milliseconds: 2.62682
+Execution time in seconds: 0.00263
+
+Runs: 10
+Execution time in milliseconds: 2.60031
+Execution time in seconds: 0.0026
+
+Runs: 20
+Execution time in milliseconds: 2.71363
+Execution time in seconds: 0.00271
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (Identity matrix)
+Size: 128x128
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 2.7271
+Execution time in seconds: 0.00273
+
+Runs: 5
+Execution time in milliseconds: 2.23068
+Execution time in seconds: 0.00223
+
+Runs: 10
+Execution time in milliseconds: 2.23811
+Execution time in seconds: 0.00224
+
+Runs: 20
+Execution time in milliseconds: 2.2087
+Execution time in seconds: 0.00221
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 3.0668
+Execution time in seconds: 0.00307
+
+Runs: 5
+Execution time in milliseconds: 2.44586
+Execution time in seconds: 0.00245
+
+Runs: 10
+Execution time in milliseconds: 2.62508
+Execution time in seconds: 0.00263
+
+Runs: 20
+Execution time in milliseconds: 2.40649
+Execution time in seconds: 0.00241
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (All 1s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.7985
+Execution time in seconds: 0.0138
+
+Runs: 5
+Execution time in milliseconds: 13.2267
+Execution time in seconds: 0.01323
+
+Runs: 10
+Execution time in milliseconds: 13.42584
+Execution time in seconds: 0.01343
+
+Runs: 20
+Execution time in milliseconds: 13.57198
+Execution time in seconds: 0.01357
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 12.9948
+Execution time in seconds: 0.01299
+
+Runs: 5
+Execution time in milliseconds: 12.4448
+Execution time in seconds: 0.01244
+
+Runs: 10
+Execution time in milliseconds: 13.22218
+Execution time in seconds: 0.01322
+
+Runs: 20
+Execution time in milliseconds: 13.33005
+Execution time in seconds: 0.01333
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (All 2s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 18.1235
+Execution time in seconds: 0.01812
+
+Runs: 5
+Execution time in milliseconds: 12.16368
+Execution time in seconds: 0.01216
+
+Runs: 10
+Execution time in milliseconds: 12.22523
+Execution time in seconds: 0.01223
+
+Runs: 20
+Execution time in milliseconds: 13.52762
+Execution time in seconds: 0.01353
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 14.1325
+Execution time in seconds: 0.01413
+
+Runs: 5
+Execution time in milliseconds: 13.5875
+Execution time in seconds: 0.01359
+
+Runs: 10
+Execution time in milliseconds: 14.10473
+Execution time in seconds: 0.0141
+
+Runs: 20
+Execution time in milliseconds: 13.15711
+Execution time in seconds: 0.01316
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (Identity matrix)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 12.1402
+Execution time in seconds: 0.01214
+
+Runs: 5
+Execution time in milliseconds: 11.99656
+Execution time in seconds: 0.012
+
+Runs: 10
+Execution time in milliseconds: 11.69875
+Execution time in seconds: 0.0117
+
+Runs: 20
+Execution time in milliseconds: 12.38533
+Execution time in seconds: 0.01239
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 12.6275
+Execution time in seconds: 0.01263
+
+Runs: 5
+Execution time in milliseconds: 12.49714
+Execution time in seconds: 0.0125
+
+Runs: 10
+Execution time in milliseconds: 12.23913
+Execution time in seconds: 0.01224
+
+Runs: 20
+Execution time in milliseconds: 11.87163
+Execution time in seconds: 0.01187
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 1s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 12.5872
+Execution time in seconds: 0.01259
+
+Runs: 5
+Execution time in milliseconds: 12.08954
+Execution time in seconds: 0.01209
+
+Runs: 10
+Execution time in milliseconds: 12.96209
+Execution time in seconds: 0.01296
+
+Runs: 20
+Execution time in milliseconds: 12.81854
+Execution time in seconds: 0.01282
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.3444
+Execution time in seconds: 0.01334
+
+Runs: 5
+Execution time in milliseconds: 12.70126
+Execution time in seconds: 0.0127
+
+Runs: 10
+Execution time in milliseconds: 13.22246
+Execution time in seconds: 0.01322
+
+Runs: 20
+Execution time in milliseconds: 13.25505
+Execution time in seconds: 0.01326
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 2s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.2427
+Execution time in seconds: 0.01324
+
+Runs: 5
+Execution time in milliseconds: 12.55692
+Execution time in seconds: 0.01256
+
+Runs: 10
+Execution time in milliseconds: 12.96368
+Execution time in seconds: 0.01296
+
+Runs: 20
+Execution time in milliseconds: 13.91406
+Execution time in seconds: 0.01391
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.7588
+Execution time in seconds: 0.01376
+
+Runs: 5
+Execution time in milliseconds: 13.55006
+Execution time in seconds: 0.01355
+
+Runs: 10
+Execution time in milliseconds: 13.62866
+Execution time in seconds: 0.01363
+
+Runs: 20
+Execution time in milliseconds: 13.06055
+Execution time in seconds: 0.01306
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (Identity matrix)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 16.7935
+Execution time in seconds: 0.01679
+
+Runs: 5
+Execution time in milliseconds: 12.89972
+Execution time in seconds: 0.0129
+
+Runs: 10
+Execution time in milliseconds: 12.7831
+Execution time in seconds: 0.01278
+
+Runs: 20
+Execution time in milliseconds: 12.58907
+Execution time in seconds: 0.01259
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.9552
+Execution time in seconds: 0.01396
+
+Runs: 5
+Execution time in milliseconds: 12.8614
+Execution time in seconds: 0.01286
+
+Runs: 10
+Execution time in milliseconds: 12.73291
+Execution time in seconds: 0.01273
+
+Runs: 20
+Execution time in milliseconds: 12.77524
+Execution time in seconds: 0.01278
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 1s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 14.6515
+Execution time in seconds: 0.01465
+
+Runs: 5
+Execution time in milliseconds: 14.02544
+Execution time in seconds: 0.01403
+
+Runs: 10
+Execution time in milliseconds: 15.8081
+Execution time in seconds: 0.01581
+
+Runs: 20
+Execution time in milliseconds: 14.842
+Execution time in seconds: 0.01484
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 17.5739
+Execution time in seconds: 0.01757
+
+Runs: 5
+Execution time in milliseconds: 16.5076
+Execution time in seconds: 0.01651
+
+Runs: 10
+Execution time in milliseconds: 14.64944
+Execution time in seconds: 0.01465
+
+Runs: 20
+Execution time in milliseconds: 15.73957
+Execution time in seconds: 0.01574
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 2s)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 15.6908
+Execution time in seconds: 0.01569
+
+Runs: 5
+Execution time in milliseconds: 15.2088
+Execution time in seconds: 0.01521
+
+Runs: 10
+Execution time in milliseconds: 15.98694
+Execution time in seconds: 0.01599
+
+Runs: 20
+Execution time in milliseconds: 16.00563
+Execution time in seconds: 0.01601
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 16.3062
+Execution time in seconds: 0.01631
+
+Runs: 5
+Execution time in milliseconds: 15.22138
+Execution time in seconds: 0.01522
+
+Runs: 10
+Execution time in milliseconds: 15.96701
+Execution time in seconds: 0.01597
+
+Runs: 20
+Execution time in milliseconds: 15.36385
+Execution time in seconds: 0.01536
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (Identity matrix)
+Size: 256x256
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.3526
+Execution time in seconds: 0.01335
+
+Runs: 5
+Execution time in milliseconds: 13.6686
+Execution time in seconds: 0.01367
+
+Runs: 10
+Execution time in milliseconds: 15.11439
+Execution time in seconds: 0.01511
+
+Runs: 20
+Execution time in milliseconds: 14.70163
+Execution time in seconds: 0.0147
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 13.9019
+Execution time in seconds: 0.0139
+
+Runs: 5
+Execution time in milliseconds: 13.36364
+Execution time in seconds: 0.01336
+
+Runs: 10
+Execution time in milliseconds: 13.69531
+Execution time in seconds: 0.0137
+
+Runs: 20
+Execution time in milliseconds: 13.68006
+Execution time in seconds: 0.01368
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (All 1s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 124.8025
+Execution time in seconds: 0.1248
+
+Runs: 5
+Execution time in milliseconds: 123.1997
+Execution time in seconds: 0.1232
+
+Runs: 10
+Execution time in milliseconds: 126.09654
+Execution time in seconds: 0.1261
+
+Runs: 20
+Execution time in milliseconds: 123.03862
+Execution time in seconds: 0.12304
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 124.3075
+Execution time in seconds: 0.12431
+
+Runs: 5
+Execution time in milliseconds: 118.8245
+Execution time in seconds: 0.11882
+
+Runs: 10
+Execution time in milliseconds: 121.26967
+Execution time in seconds: 0.12127
+
+Runs: 20
+Execution time in milliseconds: 120.11234
+Execution time in seconds: 0.12011
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (All 2s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 134.2701
+Execution time in seconds: 0.13427
+
+Runs: 5
+Execution time in milliseconds: 129.39744
+Execution time in seconds: 0.1294
+
+Runs: 10
+Execution time in milliseconds: 128.2835
+Execution time in seconds: 0.12828
+
+Runs: 20
+Execution time in milliseconds: 128.58265
+Execution time in seconds: 0.12858
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 125.912
+Execution time in seconds: 0.12591
+
+Runs: 5
+Execution time in milliseconds: 131.20622
+Execution time in seconds: 0.13121
+
+Runs: 10
+Execution time in milliseconds: 125.65683
+Execution time in seconds: 0.12566
+
+Runs: 20
+Execution time in milliseconds: 123.04508
+Execution time in seconds: 0.12305
+
+======================================
+
+Case: Matrix A (All 1s), Matrix B (Identity matrix)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 129.1647
+Execution time in seconds: 0.12916
+
+Runs: 5
+Execution time in milliseconds: 124.2401
+Execution time in seconds: 0.12424
+
+Runs: 10
+Execution time in milliseconds: 122.70285
+Execution time in seconds: 0.1227
+
+Runs: 20
+Execution time in milliseconds: 122.44074
+Execution time in seconds: 0.12244
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 121.4731
+Execution time in seconds: 0.12147
+
+Runs: 5
+Execution time in milliseconds: 121.9098
+Execution time in seconds: 0.12191
+
+Runs: 10
+Execution time in milliseconds: 121.75511
+Execution time in seconds: 0.12176
+
+Runs: 20
+Execution time in milliseconds: 116.5905
+Execution time in seconds: 0.11659
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 1s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 134.9618
+Execution time in seconds: 0.13496
+
+Runs: 5
+Execution time in milliseconds: 130.43986
+Execution time in seconds: 0.13044
+
+Runs: 10
+Execution time in milliseconds: 127.72154
+Execution time in seconds: 0.12772
+
+Runs: 20
+Execution time in milliseconds: 128.6866
+Execution time in seconds: 0.12869
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 124.4573
+Execution time in seconds: 0.12446
+
+Runs: 5
+Execution time in milliseconds: 125.82498
+Execution time in seconds: 0.12582
+
+Runs: 10
+Execution time in milliseconds: 125.79491
+Execution time in seconds: 0.12579
+
+Runs: 20
+Execution time in milliseconds: 123.54999
+Execution time in seconds: 0.12355
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (All 2s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 134.767
+Execution time in seconds: 0.13477
+
+Runs: 5
+Execution time in milliseconds: 129.25638
+Execution time in seconds: 0.12926
+
+Runs: 10
+Execution time in milliseconds: 131.42972
+Execution time in seconds: 0.13143
+
+Runs: 20
+Execution time in milliseconds: 127.57554
+Execution time in seconds: 0.12758
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 122.092
+Execution time in seconds: 0.12209
+
+Runs: 5
+Execution time in milliseconds: 125.09486
+Execution time in seconds: 0.12509
+
+Runs: 10
+Execution time in milliseconds: 124.1692
+Execution time in seconds: 0.12417
+
+Runs: 20
+Execution time in milliseconds: 124.17706
+Execution time in seconds: 0.12418
+
+======================================
+
+Case: Matrix A (All 2s), Matrix B (Identity matrix)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 120.9017
+Execution time in seconds: 0.1209
+
+Runs: 5
+Execution time in milliseconds: 122.29826
+Execution time in seconds: 0.1223
+
+Runs: 10
+Execution time in milliseconds: 122.33932
+Execution time in seconds: 0.12234
+
+Runs: 20
+Execution time in milliseconds: 122.48306
+Execution time in seconds: 0.12248
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 121.6232
+Execution time in seconds: 0.12162
+
+Runs: 5
+Execution time in milliseconds: 123.87658
+Execution time in seconds: 0.12388
+
+Runs: 10
+Execution time in milliseconds: 121.18369
+Execution time in seconds: 0.12118
+
+Runs: 20
+Execution time in milliseconds: 119.65406
+Execution time in seconds: 0.11965
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 1s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 134.8929
+Execution time in seconds: 0.13489
+
+Runs: 5
+Execution time in milliseconds: 135.23972
+Execution time in seconds: 0.13524
+
+Runs: 10
+Execution time in milliseconds: 134.78036
+Execution time in seconds: 0.13478
+
+Runs: 20
+Execution time in milliseconds: 135.41277
+Execution time in seconds: 0.13541
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 136.692
+Execution time in seconds: 0.13669
+
+Runs: 5
+Execution time in milliseconds: 135.28854
+Execution time in seconds: 0.13529
+
+Runs: 10
+Execution time in milliseconds: 134.93426
+Execution time in seconds: 0.13493
+
+Runs: 20
+Execution time in milliseconds: 132.97522
+Execution time in seconds: 0.13298
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (All 2s)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 143.7995
+Execution time in seconds: 0.1438
+
+Runs: 5
+Execution time in milliseconds: 135.83344
+Execution time in seconds: 0.13583
+
+Runs: 10
+Execution time in milliseconds: 135.68128
+Execution time in seconds: 0.13568
+
+Runs: 20
+Execution time in milliseconds: 136.19341
+Execution time in seconds: 0.13619
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 133.8271
+Execution time in seconds: 0.13383
+
+Runs: 5
+Execution time in milliseconds: 133.68498
+Execution time in seconds: 0.13368
+
+Runs: 10
+Execution time in milliseconds: 136.59287
+Execution time in seconds: 0.13659
+
+Runs: 20
+Execution time in milliseconds: 131.22729
+Execution time in seconds: 0.13123
+
+======================================
+
+Case: Matrix A (Increment by 1), Matrix B (Identity matrix)
+Size: 512x512
+
+Integer Matrices:
+
+Runs: 1
+Execution time in milliseconds: 137.034
+Execution time in seconds: 0.13703
+
+Runs: 5
+Execution time in milliseconds: 132.88936
+Execution time in seconds: 0.13289
+
+Runs: 10
+Execution time in milliseconds: 130.92977
+Execution time in seconds: 0.13093
+
+Runs: 20
+Execution time in milliseconds: 131.62217
+Execution time in seconds: 0.13162
+
+===================
+
+Float Matrices:
+
+Runs: 1
+Execution time in milliseconds: 125.9098
+Execution time in seconds: 0.12591
+
+Runs: 5
+Execution time in milliseconds: 127.24058
+Execution time in seconds: 0.12724
+
+Runs: 10
+Execution time in milliseconds: 127.46516
+Execution time in seconds: 0.12747
+
+Runs: 20
+Execution time in milliseconds: 124.29743
+Execution time in seconds: 0.1243
+
+======================================
