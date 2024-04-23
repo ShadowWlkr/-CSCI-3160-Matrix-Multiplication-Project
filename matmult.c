@@ -20,7 +20,7 @@ double fm256all1[MATB][MATB], fm256all2[MATB][MATB], fm256iden[MATB][MATB], fm25
 int im512all1[MATC][MATC], im512all2[MATC][MATC], im512iden[MATC][MATC], im512seq[MATC][MATC];
 double fm512all1[MATC][MATC], fm512all2[MATC][MATC], fm512iden[MATC][MATC], fm512seq[MATC][MATC];
 
-int intmatmult128_unopt(int A[][MATA], int B[][MATA])
+int intmatmult128_unopt(int A[][MATA], int B[][MATA], int flag)
 {
 	register int i, j, k;
 	int C[MATA][MATA];
@@ -47,7 +47,25 @@ int intmatmult128_unopt(int A[][MATA], int B[][MATA])
 	fprintf(fil, "Integer Matrix Multiplication of size 128 took %0.5f seconds.\n", time);
 
 	//verify output
-	
+	switch (flag) {
+		case 0:
+			break;
+		case 1:
+			fprintf(fil, "Verifying output...");
+			for (i = 0; i < MATA; i++)
+			{
+				for(j = 0; j < MATA; j++)
+				{
+					if (A[i][j] != C[i][j])
+					{
+						fprintf(fil, "Output invalid!\n");
+						break;
+					}
+				}
+			}
+			fprintf(fil, "Output valid!\n");
+			break;
+		}
 
 /*	for(int i = 0; i < MATA; i++)
 	{
@@ -408,13 +426,13 @@ void main()
 
 	fprintf(stdout, "\n==================================\n\nStart unoptimized 128 testing, all int 1's*identity matrix...\n");
 	fprintf(fil, "\n==================================\n\nStart unoptimized 128 testing, all int 1's*identity matrix...\n");
-	intmatmult128_unopt(im128all1, im128iden);	
+	intmatmult128_unopt(im128all1, im128iden, 1);	
 	fprintf(stdout, "\nNext test, all int 2's*identity matrix...\n");
 	fprintf(fil, "\nNext test, all int 2's*identity matrix...\n");
-	intmatmult128_unopt(im128all2, im128iden);
+	intmatmult128_unopt(im128all2, im128iden, 1);
 	fprintf(stdout, "\nNext test, sequential integers*identity matrix...\n");
 	fprintf(fil, "\nNext test, sequential integers*identity matrix...\n");
-	intmatmult128_unopt(im128seq, im128iden);
+	intmatmult128_unopt(im128seq, im128iden, 1);
 	fprintf(stdout, "\nNext test, all float 1's*identity matrix...\n");
 	fprintf(fil, "\nNext test, all float 1's*identity matrix...\n");
 	flomatmult128_unopt(fm128all1, fm128iden);
@@ -427,13 +445,13 @@ void main()
 	
 	fprintf(stdout, "\nNext test, all int 1's*all int 1's...\n");
 	fprintf(fil, "\nNext test, all int 1's*all int 1's...\n");
-	intmatmult128_unopt(im128all1, im128all1);	
+	intmatmult128_unopt(im128all1, im128all1, 0);	
 	fprintf(stdout, "\nNext test, all int 2's*all int 1's...\n");
 	fprintf(fil, "\nNext test, all int 2's*all int 1's...\n");
-	intmatmult128_unopt(im128all2, im128all1);
+	intmatmult128_unopt(im128all2, im128all1, 0);
 	fprintf(stdout, "\nNext test, sequential integers*all int 1's...\n");
 	fprintf(fil, "\nNext test, sequential integers*all int 1's...\n");
-	intmatmult128_unopt(im128seq, im128all1);
+	intmatmult128_unopt(im128seq, im128all1, 0);
 	fprintf(stdout, "\nNext test, all float 1's*all float 1's...\n");
 	fprintf(fil, "\nNext test, all float 1's*all float 1's...\n");
 	flomatmult128_unopt(fm128all1, fm128all1);
@@ -446,13 +464,13 @@ void main()
 
 	fprintf(stdout, "\nNext test, all int 1's*all int 2's...\n");
 	fprintf(fil, "\nNext test, all int 1's*all int 2's...\n");
-	intmatmult128_unopt(im128all1, im128all2);	
+	intmatmult128_unopt(im128all1, im128all2, 0);	
 	fprintf(stdout, "\nNext test, all int 2's*all int 2's...\n");
 	fprintf(fil, "\nNext test, all int 2's*all int 2's...\n");
-	intmatmult128_unopt(im128all2, im128all2);
+	intmatmult128_unopt(im128all2, im128all2, 0);
 	fprintf(stdout, "\nNext test, sequential integers*all int 2's...\n");
 	fprintf(fil, "\nNext test, sequential integers*all int 2's...\n");
-	intmatmult128_unopt(im128seq, im128all2);
+	intmatmult128_unopt(im128seq, im128all2, 0);
 	fprintf(stdout, "\nNext test, all float 1's*all int 2's...\n");
 	fprintf(fil, "\nNext test, all float 1's*all int 2's...\n");
 	flomatmult128_unopt(fm128all1, fm128all2);
