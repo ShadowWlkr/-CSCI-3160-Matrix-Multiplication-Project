@@ -1,9 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import org.jblas.FloatMatrix;
-import java.util.concurrent.*;
-import java.util.List;
-import java.util.ArrayList;
+
 
 public class Java_Adv_Imp_Library {
     // Method to create an integer matrixA with specified size and type
@@ -93,56 +91,39 @@ public class Java_Adv_Imp_Library {
     }
 
     // Method to multiply integer matrices A and B and write the result to a txt file based on each test case
-    // No Matrix multiplication for Ints within JBLAS Library, used threads in place of them to optimize still
     public static void matrixMultiplyInt(int[][] A, int[][] B, int size, String caseDescription, int runs) {
-      long startTime = System.nanoTime(); // Timer start, used later in calculations
-      String fileName = "product_matrix_int_" + caseDescription + "_" + size + ".txt"; // File name created unique to each case
-      int numThreads = Runtime.getRuntime().availableProcessors(); // Get the number of available processors
-      ExecutorService executor = Executors.newFixedThreadPool(numThreads); // Create a thread pool
-
-      try (FileWriter writer = new FileWriter(fileName)) { // Try catch for creation of file after every new test case
-          for (int r = 0; r < runs; r++) { // Runs used to benchmark every 1, 5, 10, 20 times
-              List<Future<String>> futures = new ArrayList<>();
-              for (int i = 0; i < size; i++) {
-                  final int row = i;
-                  futures.add(executor.submit(new Callable<String>() {
-                      public String call() {
-                          StringBuilder sb = new StringBuilder();
-                          for (int j = 0; j < size; j++) {
-                              int result = 0;
-                              for (int k = 0; k < size; k++) {
-                                  result += A[row][k] * B[k][j]; // Multiply matrices
-                              }
-                              sb.append(result); // Writes results to file
-                              if (j < size - 1) {
-                                  sb.append(","); // Separates each result with ","
-                              }
-                          }
-                          sb.append("\n"); // Add newline after each row
-                          return sb.toString();
-                      }
-                  }));
-              }
-              for (Future<String> future : futures) {
-                  writer.append(future.get());
-              }
+        long startTime = System.nanoTime(); // Timer start, used later in calculations
+        String fileName = "product_matrix_int_" + caseDescription + "_" + size + ".txt"; // File name created unique to each case
+        try (FileWriter writer = new FileWriter(fileName)) { // Try catch for creation of file after every new test case
+            for (int r = 0; r < runs; r++) { // Runs used to benchmark every 1, 5, 10, 20 times
+                for (int i = 0; i < size; i++) {
+                    for (int j = 0; j < size; j++) {
+                        int result = 0;
+                        for (int k = 0; k < size; k++) {
+                            result += A[i][k] * B[k][j]; // Multiply matrices
+                        }
+                        writer.append(Integer.toString(result)); // Writes results to file
+                        if (j < size - 1) {
+                            writer.append(","); // Separtes each result with ","
+                        }
+                    }
+                    writer.append("\n"); // Add newline after each row
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-      } catch (IOException | InterruptedException | ExecutionException e) {
-          e.printStackTrace();
-      }
 
-      executor.shutdown(); // Shut down the executor service
+        // Calculates time taken
+        long endTime = System.nanoTime();
+        double durationMilli = Math.round((endTime - startTime) / (double) runs / 1e6 * 100000.0) / 100000.0;
+        double durationSec = Math.round(durationMilli / 1000.0 * 100000.0) / 100000.0;
 
-      // Calculates time taken
-      long endTime = System.nanoTime();
-      double durationMilli = Math.round((endTime - startTime) / (double) runs / 1e6 * 100000.0) / 100000.0;
-      double durationSec = Math.round(durationMilli / 1000.0 * 100000.0) / 100000.0;
-
-      // Prints time taken
-      System.out.println("Runs: " + runs);
-      System.out.println("Execution time in milliseconds: " + durationMilli);
-      System.out.println("Execution time in seconds: " + durationSec);
-      System.out.println();
+        // Prints time taken
+        System.out.println("Runs: " + runs);
+        System.out.println("Execution time in milliseconds: " + durationMilli);
+        System.out.println("Execution time in seconds: " + durationSec);
+        System.out.println();  
     }
 
     // Method to multiply float matrices A and B and write the result to a txt file based on each test case
