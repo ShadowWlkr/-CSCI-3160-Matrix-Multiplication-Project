@@ -1,0 +1,181 @@
+Start unoptimized 128 testing...
+
+All int 1's * Identity matrix:
+Matrix Multiplication of size 128 took 0.11038 seconds.
+
+All int 2's * Identity matrix:
+Matrix Multiplication of size 128 took 0.10996 seconds.
+
+Sequential integers * Identity matrix:
+Matrix Multiplication of size 128 took 0.11032 seconds.
+
+All float 1's * Identity matrix:
+Matrix Multiplication of size 128 took 0.11056 seconds.
+
+All float 2's * Identity matrix:
+Matrix Multiplication of size 128 took 0.10952 seconds.
+
+Sequential floats * Identity matrix:
+Matrix Multiplication of size 128 took 0.11938 seconds.
+
+All Int 1's * all Int 1's:
+Matrix Multiplication of size 128 took 0.11331 seconds.
+
+All int 2's * all Int 1's:
+Matrix Multiplication of size 128 took 0.11394 seconds.
+
+Sequential integers * All Int 1's:
+Matrix Multiplication of size 128 took 0.11637 seconds.
+
+All float 1's * All float 1's:
+Matrix Multiplication of size 128 took 0.11182 seconds.
+
+All float 2's * All float 1's:
+Matrix Multiplication of size 128 took 0.11307 seconds.
+
+Sequential floats * All float 1's:
+Matrix Multiplication of size 128 took 0.11691 seconds.
+
+All Int 1's * all Int 2's:
+Matrix Multiplication of size 128 took 0.11307 seconds.
+
+All int 2's * all Int 2's:
+Matrix Multiplication of size 128 took 0.11373 seconds.
+
+Sequential integers * All Int 2's:
+Matrix Multiplication of size 128 took 0.11972 seconds.
+
+All float 1's * All float 2's:
+Matrix Multiplication of size 128 took 0.11334 seconds.
+
+All float 2's * All float 2's:
+Matrix Multiplication of size 128 took 0.11524 seconds.
+
+Sequential floats * All float 2's:
+Matrix Multiplication of size 128 took 0.11921 seconds.
+
+
+
+==================================
+
+
+Start unoptimized 256 testing...
+
+All int 1's * Identity matrix:
+Matrix Multiplication of size 256 took 0.89962 seconds.
+
+All int 2's * Identity matrix:
+Matrix Multiplication of size 256 took 0.90122 seconds.
+
+Sequential integers * Identity matrix:
+Matrix Multiplication of size 256 took 0.91335 seconds.
+
+All float 1's * Identity matrix:
+Matrix Multiplication of size 256 took 0.90744 seconds.
+
+All float 2's * Identity matrix:
+Matrix Multiplication of size 256 took 0.90969 seconds.
+
+Sequential floats * Identity matrix:
+Matrix Multiplication of size 256 took 0.96889 seconds.
+
+All Int 1's * all Int 1's:
+Matrix Multiplication of size 256 took 0.95444 seconds.
+
+All int 2's * all Int 1's:
+Matrix Multiplication of size 256 took 0.95034 seconds.
+
+Sequential integers * All Int 1's:
+Matrix Multiplication of size 256 took 0.95615 seconds.
+
+All float 1's * All float 1's:
+Matrix Multiplication of size 256 took 0.95468 seconds.
+
+All float 2's * All float 1's:
+Matrix Multiplication of size 256 took 0.95023 seconds.
+
+Sequential floats * All float 1's:
+Matrix Multiplication of size 256 took 0.99479 seconds.
+
+All Int 1's * all Int 2's:
+Matrix Multiplication of size 256 took 0.95538 seconds.
+
+All int 2's * all Int 2's:
+Matrix Multiplication of size 256 took 0.95645 seconds.
+
+Sequential integers * All Int 2's:
+Matrix Multiplication of size 256 took 1.01389 seconds.
+
+All float 1's * All float 2's:
+Matrix Multiplication of size 256 took 0.96091 seconds.
+
+All float 2's * All float 2's:
+Matrix Multiplication of size 256 took 0.93981 seconds.
+
+Sequential floats * All float 2's:
+Matrix Multiplication of size 256 took 1.01272 seconds.
+
+
+
+==================================
+
+
+Start unoptimized 512 testing...
+
+All int 1's * Identity matrix:
+Matrix Multiplication of size 512 took 7.57589 seconds.
+
+All int 2's * Identity matrix:
+Matrix Multiplication of size 512 took 7.56532 seconds.
+
+Sequential integers * Identity matrix:
+Matrix Multiplication of size 512 took 7.72149 seconds.
+
+All float 1's * Identity matrix:
+Matrix Multiplication of size 512 took 7.60970 seconds.
+
+All float 2's * Identity matrix:
+Matrix Multiplication of size 512 took 7.53946 seconds.
+
+Sequential floats * Identity matrix:
+Matrix Multiplication of size 512 took 8.08993 seconds.
+
+All Int 1's * all Int 1's:
+Matrix Multiplication of size 512 took 7.99707 seconds.
+
+All int 2's * all Int 1's:
+Matrix Multiplication of size 512 took 7.90183 seconds.
+
+Sequential integers * All Int 1's:
+Matrix Multiplication of size 512 took 8.54440 seconds.
+
+All float 1's * All float 1's:
+Matrix Multiplication of size 512 took 7.98501 seconds.
+
+All float 2's * All float 1's:
+Matrix Multiplication of size 512 took 7.90290 seconds.
+
+Sequential floats * All float 1's:
+Matrix Multiplication of size 512 took 8.04474 seconds.
+
+All Int 1's * all Int 2's:
+Matrix Multiplication of size 512 took 7.92535 seconds.
+
+All int 2's * all Int 2's:
+Matrix Multiplication of size 512 took 7.95294 seconds.
+
+Sequential integers * All Int 2's:
+Matrix Multiplication of size 512 took 8.82164 seconds.
+
+All float 1's * All float 2's:
+Matrix Multiplication of size 512 took 7.93196 seconds.
+
+All float 2's * All float 2's:
+Matrix Multiplication of size 512 took 7.95398 seconds.
+
+Sequential floats * All float 2's:
+Matrix Multiplication of size 512 took 8.03769 seconds.
+
+
+
+==================================
